@@ -25,12 +25,13 @@ SECRET_KEY = 'p9+&sx2s0@lc@ki02oc*88u*w=2_zicfrah+-_!w0@eko93sq4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ec2-18-183-43-196.ap-northeast-1.compute.amazonaws.com']
+ALLOWED_HOSTS = ['ec2-18-181-235-40.ap-northeast-1.compute.amazonaws.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
